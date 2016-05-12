@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">mvp</string>
+    <string name="btn_main_debounce">Debounce demo</string>
+    <string name="hint_buffer">Github login</string>
+    <string name="descr_avatar">Avatar</string>
+    <string name="minmax_hint_numbers">Cisla sem!</string>
+    <string name="minmax_submit">Vloz!</string>
+    <string name="btn_main_math">Math observables</string>
+    <string name="minmax_complete">Skoncit se zadavanim</string>
+    <string name="minmax_min_value">Min = %d</string>
+    <string name="minmax_max_value">Max  = %d</string>
+    <string name="minmax_sum_value">Celkem = %d</string>
+    <string name="minmax_error_title">Uuuuu brutalni error! Z tohoto se observable samo nezotavi.</string>
+    <string name="minmax_current_sum_value">Current sum = %d</string>
+    <string name="btn_main_create">Create Observables</string>
+    <string name="combine_latest_hint_name">Jmeno</string>
+    <string name="combine_latest_hint_surname">Prijmeni</string>
+    <string name="combine_latest_hint_login">Login</string>
+    <string name="combine_latest_hint_email">Email</string>
+    <string name="combine_latest_submit">Registruj!</string>
+    <string name="btn_main_combine_latest">Combine Latest demo</string>
+    <string name="btn_main_merge">Merge demo</string>
 </resources>

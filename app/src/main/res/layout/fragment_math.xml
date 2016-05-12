@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/frame_minmax_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_minmax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/minmax_hint_numbers"
+            android:inputType="number"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_minmax_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minmax_submit"/>
+
+        <Button
+            android:id="@+id/btn_minmax_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minmax_complete"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <TextView
+            android:id="@+id/text_minmax_current_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="Current sum = 16"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <TextView
+            android:id="@+id/text_minmax_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="Min = 16"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <TextView
+            android:id="@+id/text_minmax_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="Max = 1578"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"/>
+
+        <TextView
+            android:id="@+id/text_minmax_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:text="Celkem = 1594"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_minmax_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_minmax_error"
+            android:text="@string/minmax_error_title"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/text_minmax_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</FrameLayout>
